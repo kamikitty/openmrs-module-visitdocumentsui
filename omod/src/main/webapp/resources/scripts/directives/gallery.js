@@ -16,7 +16,7 @@ angular.module('vdui.widget.gallery')
       // Loading i18n messages
       var msgCodes = [
       module.getProvider() + ".gallery.loadMore",
-      module.getProvider() + ".gallery.noDocuments"
+      "general.none"
       ]
       emr.loadMessages(msgCodes.toString(), function(msgs) {
         $scope.msgs = msgs;
